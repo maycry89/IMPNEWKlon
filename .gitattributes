@@ -1,6 +1,9 @@
 
 # .gitattributes
 
+# Unity Specials
+.anim filter=lfs diff=lfs merge=lfs -text
+
 # Images
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
